@@ -1,0 +1,5 @@
+num=int(input("Ingrese los segundos: "))
+hora=int(num/3600)
+minu=int((num-(hora*3600))/60)
+seg=num-((hora*3600)+(minu*60))
+print(hora,":",minu,":",seg)

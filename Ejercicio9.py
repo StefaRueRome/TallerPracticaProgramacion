@@ -1,0 +1,7 @@
+print("IVA de una venta")
+valor=int(input("Introduzca el valor: "))
+iva=float(valor*0.19)
+v_venta=int(valor+iva)
+print("El valor de venta fue: ", valor)
+print("El valor del iva es: ", iva)
+print ("El valor de la venta mas iva incluido es: ", v_venta)
